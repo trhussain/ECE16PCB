@@ -1,0 +1,54 @@
+### Footprint positions - created on 2024-06-16T11:36:22-0700 ###
+### Printed by KiCad version 8.0.0
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref          Val                 Package                                       PosX       PosY       Rot  Side
+BT1            Battery_Cell        JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal    88.5000   -68.0000  -90.0000  top
+BZ1            Buzzer              MagneticBuzzer_CUI_CMT-8504-100-SMT       131.0000   -71.5000  180.0000  top
+C1             0.1uF               C_0402_1005Metric                         119.5000   -52.0200   90.0000  top
+C2             1uF                 C_0402_1005Metric                         121.0000   -52.0100  -90.0000  top
+C3             0.1uF               C_0402_1005Metric                         101.0000   -52.5000   90.0000  top
+C4             22uF                C_0402_1005Metric                          98.0000   -52.4800   90.0000  top
+C5             0.1uF               C_0402_1005Metric                          99.5000   -52.4800   90.0000  top
+C6             1uF                 C_0402_1005Metric                         136.0000   -53.0000  -90.0000  top
+C7             1uF                 C_0402_1005Metric                          96.5675   -70.7750    0.0000  top
+C8             1uF                 C_0402_1005Metric                         134.5000   -53.0000  -90.0000  top
+C9             1uF                 C_0402_1005Metric                          96.5875   -69.4500    0.0000  top
+C10            1uF                 C_0402_1005Metric                         128.7700   -64.5000    0.0000  top
+C11            1uF                 C_0402_1005Metric                         129.7500   -58.5000    0.0000  top
+C20            4.7uF               C_0402_1005Metric                         109.0000   -69.5000    0.0000  top
+C21            4.7uF               C_0402_1005Metric                         112.5000   -72.5000   90.0000  top
+D1             D                   D_SOD-123F                                 93.0875   -72.4500  180.0000  top
+D2             D                   D_SOD-123F                                 93.1425   -66.4500  180.0000  top
+D3             LED_CHRG_           LED_0603_1608Metric                       110.0000   -76.0000    0.0000  top
+D4             LED                 LED_0603_1608Metric                       123.0000   -57.0000  180.0000  top
+D5             LED                 LED_0603_1608Metric                       122.9875   -60.8000  180.0000  top
+D6             LED                 LED_0603_1608Metric                       123.0000   -59.0000  180.0000  top
+D7             LED                 LED_0603_1608Metric                        98.7250   -69.2750   90.0000  top
+D8             D                   D_SOD-123F                                138.0225   -63.9775   90.0000  top
+D11            LED                 LED_0603_1608Metric                       134.5000   -55.0000  180.0000  top
+MCP73831T1     ~                   SOT95P270X145-5N                          110.0000   -72.5000   90.0000  top
+Q2             BC547               TO-92_Inline                              138.2700   -58.7800  180.0000  top
+R1             5.1k                R_0402_1005Metric                          90.0000   -52.5000    0.0000  top
+R2             5.1k                R_0402_1005Metric                          90.0000   -51.0000  180.0000  top
+R3             10k                 R_0402_1005Metric                         122.5000   -52.0100  -90.0000  top
+R4             1k                  R_0402_1005Metric                         120.4000   -57.0000    0.0000  top
+R5             1k                  R_0402_1005Metric                         120.4000   -60.8000    0.0000  top
+R6             1k                  R_0402_1005Metric                         120.4000   -58.9000    0.0000  top
+R7             1k                  R_0402_1005Metric                          96.5875   -67.9500    0.0000  top
+R8             180                 R_0402_1005Metric                         136.0000   -64.0000   90.0000  top
+R9             2k                  R_0402_1005Metric                         111.0000   -69.5000  180.0000  top
+R10            5.1k                R_0402_1005Metric                          92.3375   -62.5000    0.0000  top
+R11            5.1k                R_0402_1005Metric                          92.2625   -57.0000    0.0000  top
+R12            470                 R_0402_1005Metric                         107.5000   -72.5000   90.0000  top
+R13            1k                  R_0402_1005Metric                         133.0000   -52.9800  -90.0000  top
+R14            1k                  R_0402_1005Metric                         131.0200   -64.5000  180.0000  top
+S1             JS102011JAQN        SW_JS102011JAQN                            86.5000   -50.0000  -90.0000  top
+SW1            ~                   rockerSwitch-434133025816                 120.5000   -48.0000   90.0000  top
+SW2            ~                   rockerSwitch-434133025816                  99.5000   -48.5000  -90.0000  top
+U1             ESP32-S3-MINI-1-N8  XCVR_ESP32-S3-MINI-1-N8                   110.0000   -58.0000    0.0000  top
+U2             LP5907MFX-3.3       SOT-23-5                                   93.3625   -69.4500    0.0000  top
+U3             LP5907MFX-2.5       SOT-23-5                                  134.5000   -49.5000  -90.0000  top
+U4             TXB0108RGY          Texas_RGY_R-PVQFN-N20_EP2.05x3.05mm       129.7700   -61.5000   90.0000  top
+USB4105-GF-A1  ~                   GCT_USB4105-GF-A                           84.8375   -60.0000  -90.0000  top
+## End
