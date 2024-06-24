@@ -157,6 +157,10 @@
 	(net 75 "unconnected-(S1-1-Pad1.1)")
 	(net 76 "unconnected-(S1-1-Pad1.1)_0")
 	(net 77 "unconnected-(PAM2401-SCADJ1-RSET-Pad6)")
+	(net 78 "Net-(C4-Pad2)")
+	(net 79 "/UB1")
+	(net 80 "/UB2")
+	(net 81 "/UB3")
 	(footprint "customFootprints:rockerSwitch-434133025816"
 		(layer "F.Cu")
 		(uuid "0540e3dd-3e7f-48e0-aa94-ef9e42c91ccf")
@@ -347,7 +351,7 @@
 			(at -2.075 -1.075)
 			(size 1.05 0.65)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 12 "/EN")
+			(net 78 "Net-(C4-Pad2)")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
 			(uuid "0e15fcea-8516-4995-a420-8b5fb5050112")
@@ -1224,7 +1228,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "ERA-2AED512X"
+		(property "MANUFACTURER" "ERJ-2RKF7503X"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3411,6 +3415,238 @@
 			)
 		)
 	)
+	(footprint "customFootprints:rockerSwitch-434133025816"
+		(layer "F.Cu")
+		(uuid "3310092e-d47a-4b26-ba78-b085fa76545c")
+		(at 89.925 45.925)
+		(descr "<B>WS-TASV</B><BR> J-Bend SMT Tact Switch 4.2x3.2 mm")
+		(property "Reference" "SW5"
+			(at -0.1 -2.8064 0)
+			(layer "F.SilkS")
+			(uuid "7fce1ba8-9919-46a5-bdfb-b2b1ee8de5a9")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 2.7768 2.7936 0)
+			(layer "F.Fab")
+			(uuid "b2f5b056-761a-4820-95cc-fc232c9dd40b")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "customFootprints:rockerSwitch-434133025816"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7179478-b243-4b25-a3c7-40e0144aa515")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8dd50cb-accf-443f-bcba-55adc85b1d87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11fa8405-9d8b-4a84-aeb9-6e8f0c2e2f82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e64f2492-3d89-4657-91fa-de5aeb8d7055")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "434133025816 "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b573a91c-3ce3-40b6-83fd-03faa937c594")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/b5d6e426-195c-468f-b1c1-a221792e5d7f")
+		(sheetname "Root")
+		(sheetfile "ece16.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.1 -0.4)
+			(end -2.1 0.4)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "99e71b69-4f52-4566-b190-a83805c2044f")
+		)
+		(fp_line
+			(start -1.1 -1.7)
+			(end 1.4 -1.7)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b09901b6-b38b-4612-92f9-801a639f3832")
+		)
+		(fp_line
+			(start -1.1 1.7)
+			(end 1.3 1.7)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6ed579b2-89b6-477b-923c-0a4262842538")
+		)
+		(fp_line
+			(start 2.3 -0.4)
+			(end 2.3 0.4)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c11b03e7-cf73-4c9e-aba2-bcd4c38abb66")
+		)
+		(fp_circle
+			(center -1 -1.2)
+			(end -0.9 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "2f83b403-e61a-4c42-bc4a-de4bbbfa166a")
+		)
+		(fp_line
+			(start -2 -1.6)
+			(end 2.2 -1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7c25e435-8884-42c1-bd18-8835f9024088")
+		)
+		(fp_line
+			(start -2 1.6)
+			(end -2 -1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "caa8070b-e39b-4b50-bff0-3849f56c48ee")
+		)
+		(fp_line
+			(start 2.2 -1.6)
+			(end 2.2 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7b2d323e-b5ce-4a3f-82bb-6552b96281f7")
+		)
+		(fp_line
+			(start 2.2 1.6)
+			(end -2 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d39acb49-9b75-43e3-9493-cc5a113036b9")
+		)
+		(pad "1" smd rect
+			(at -2.075 -1.075)
+			(size 1.05 0.65)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 81 "/UB3")
+			(pintype "power_in")
+			(solder_mask_margin 0.102)
+			(uuid "d09e9a04-95a6-482f-afa4-04f084db1705")
+		)
+		(pad "1" smd rect
+			(at 2.075 -1.075)
+			(size 1.05 0.65)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 81 "/UB3")
+			(pintype "power_in")
+			(solder_mask_margin 0.102)
+			(uuid "d625fe67-9c61-4dd3-9343-8af6116cf34c")
+		)
+		(pad "2" smd rect
+			(at -2.075 1.075)
+			(size 1.05 0.65)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 54 "GND")
+			(pintype "power_out")
+			(solder_mask_margin 0.102)
+			(uuid "fcf355de-9120-47bd-8803-86aa3c1c554c")
+		)
+		(pad "2" smd rect
+			(at 2.075 1.075)
+			(size 1.05 0.65)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 54 "GND")
+			(pintype "power_out")
+			(solder_mask_margin 0.102)
+			(uuid "eaab2179-acf2-4740-a275-2108358d01ce")
+		)
+		(model "C:/Users/16193/Documents/KiCad/8.0/Imported Libraries/rockerSwitch-434133025816/rockerSwitch - SMD - Part 1.step"
+			(offset
+				(xyz -2 -1.6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "MCP73831T-3ACI_OT:SOT95P270X145-5N"
 		(layer "F.Cu")
 		(uuid "385c77c4-3fed-4767-864c-e6810ba49a17")
@@ -5515,7 +5751,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "GRM155C81A105KA12J"
+		(property "MANUFACTURER" "GRM155R60G475ME47D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7165,6 +7401,238 @@
 			(uuid "dd440410-11af-486d-a799-874d0525e0eb")
 		)
 	)
+	(footprint "customFootprints:rockerSwitch-434133025816"
+		(layer "F.Cu")
+		(uuid "6c36422c-27b5-4b6a-adac-460468ad5a85")
+		(at 89.925 36.725)
+		(descr "<B>WS-TASV</B><BR> J-Bend SMT Tact Switch 4.2x3.2 mm")
+		(property "Reference" "SW3"
+			(at -0.1 -2.8064 0)
+			(layer "F.SilkS")
+			(uuid "a2a09530-b845-4bcd-8b82-70fb6ae7410e")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 2.7768 2.7936 0)
+			(layer "F.Fab")
+			(uuid "03a8b6a8-5167-48d1-95b4-0102db883921")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "customFootprints:rockerSwitch-434133025816"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5a6f45d-aa60-459b-9db1-fec7b0d2b6ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc3ee47c-c88a-4279-8e26-8cdb8fcf8455")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff5d7e95-3af5-41cf-8d0d-4545dd3a0eb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38d45481-e75a-4522-8428-c89b108f0a2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "434133025816 "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a404494-defe-4ada-acfe-7b2189821d53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/12d63d4f-6b88-49ce-a5f9-10bcdc086ecd")
+		(sheetname "Root")
+		(sheetfile "ece16.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.1 -0.4)
+			(end -2.1 0.4)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "846f9250-d06b-441e-8ae5-f4ddc11c9d7c")
+		)
+		(fp_line
+			(start -1.1 -1.7)
+			(end 1.4 -1.7)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9d17ad90-9208-4574-bbed-7ef8d27632eb")
+		)
+		(fp_line
+			(start -1.1 1.7)
+			(end 1.3 1.7)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "aa28a04d-524b-4397-8090-368301ca0d75")
+		)
+		(fp_line
+			(start 2.3 -0.4)
+			(end 2.3 0.4)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cc74e26e-64ad-475f-a54b-2aa5d3ddf08a")
+		)
+		(fp_circle
+			(center -1 -1.2)
+			(end -0.9 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "ef20bbd3-ffb6-4f86-9466-88b2ef841920")
+		)
+		(fp_line
+			(start -2 -1.6)
+			(end 2.2 -1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "22bc4825-eea5-4377-abf3-e0ba3da54b7e")
+		)
+		(fp_line
+			(start -2 1.6)
+			(end -2 -1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a5f2953e-c84a-4783-b519-6869e0779fba")
+		)
+		(fp_line
+			(start 2.2 -1.6)
+			(end 2.2 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1fc7381d-9dc9-4995-b3ab-55c5e0361a26")
+		)
+		(fp_line
+			(start 2.2 1.6)
+			(end -2 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "61c69e88-9b1f-4224-abf3-2526d424e8aa")
+		)
+		(pad "1" smd rect
+			(at -2.075 -1.075)
+			(size 1.05 0.65)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 79 "/UB1")
+			(pintype "power_in")
+			(solder_mask_margin 0.102)
+			(uuid "435d116e-e7b2-4d34-8709-d0d099f6190e")
+		)
+		(pad "1" smd rect
+			(at 2.075 -1.075)
+			(size 1.05 0.65)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 79 "/UB1")
+			(pintype "power_in")
+			(solder_mask_margin 0.102)
+			(uuid "af576e69-88ee-4c20-b35e-00956f259c31")
+		)
+		(pad "2" smd rect
+			(at -2.075 1.075)
+			(size 1.05 0.65)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 54 "GND")
+			(pintype "power_out")
+			(solder_mask_margin 0.102)
+			(uuid "2c79780c-6a90-4f5d-80e1-ac878d279170")
+		)
+		(pad "2" smd rect
+			(at 2.075 1.075)
+			(size 1.05 0.65)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 54 "GND")
+			(pintype "power_out")
+			(solder_mask_margin 0.102)
+			(uuid "14c5855a-009a-49d5-98c7-995381aca0b4")
+		)
+		(model "C:/Users/16193/Documents/KiCad/8.0/Imported Libraries/rockerSwitch-434133025816/rockerSwitch - SMD - Part 1.step"
+			(offset
+				(xyz -2 -1.6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "6d1216dc-1cce-4e2d-9b9e-3d1de53fe44c")
@@ -7244,7 +7712,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "GRM155C81A105KA12J"
+		(property "MANUFACTURER" "GRM155R60J106ME05J"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8214,7 +8682,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "ERA-2AED103X"
+		(property "MANUFACTURER" "ERA-2AED104X"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8573,7 +9041,7 @@
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 12 "/EN")
+			(net 78 "Net-(C4-Pad2)")
 			(pintype "passive")
 			(uuid "2c2ae333-33d1-4a64-9cc8-4e5d3d0ea22f")
 		)
@@ -9029,6 +9497,238 @@
 		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123F.wrl"
 			(offset
 				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "customFootprints:rockerSwitch-434133025816"
+		(layer "F.Cu")
+		(uuid "8279d54f-504f-4bf5-8d32-df1f707ffdb4")
+		(at 89.925 41.325)
+		(descr "<B>WS-TASV</B><BR> J-Bend SMT Tact Switch 4.2x3.2 mm")
+		(property "Reference" "SW4"
+			(at -0.1 -2.8064 0)
+			(layer "F.SilkS")
+			(uuid "65e789ee-cd27-4cc2-88ff-ca148908eebe")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 2.7768 2.7936 0)
+			(layer "F.Fab")
+			(uuid "814a9fa6-67dc-46c0-b9f3-422f803cb430")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "customFootprints:rockerSwitch-434133025816"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3530caa-176e-4a9a-88fd-c4964ad38fc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa5d30ef-41ca-4a55-8fe5-3c0ca3a5204d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd18a7ec-d499-499d-90ec-acb6959f8927")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7cb33bd7-2353-4c09-a26e-3a3034a0e6e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "434133025816 "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c86606b5-60a6-4fb2-908e-d2d384264f1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/73c2b410-bca3-4b14-9566-c7a5615bf141")
+		(sheetname "Root")
+		(sheetfile "ece16.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.1 -0.4)
+			(end -2.1 0.4)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "385b1732-1991-48d8-8e5d-3fcc5325c302")
+		)
+		(fp_line
+			(start -1.1 -1.7)
+			(end 1.4 -1.7)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0323f9fb-a3a9-4038-948a-bdc6517c908d")
+		)
+		(fp_line
+			(start -1.1 1.7)
+			(end 1.3 1.7)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f6b85842-9f98-4fe7-867a-b823623113a5")
+		)
+		(fp_line
+			(start 2.3 -0.4)
+			(end 2.3 0.4)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7371edd4-f5bc-4c5a-a32f-84a78db6f1c9")
+		)
+		(fp_circle
+			(center -1 -1.2)
+			(end -0.9 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "004aa26d-df55-4982-ab7a-1a167002f733")
+		)
+		(fp_line
+			(start -2 -1.6)
+			(end 2.2 -1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7b0a284d-ce8d-42f8-b59b-9eeb6bb79185")
+		)
+		(fp_line
+			(start -2 1.6)
+			(end -2 -1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4aefd716-f364-4047-b547-c77af6065a3f")
+		)
+		(fp_line
+			(start 2.2 -1.6)
+			(end 2.2 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4f445196-beea-4af5-ba75-0db5f797345f")
+		)
+		(fp_line
+			(start 2.2 1.6)
+			(end -2 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a968ebcf-ce01-45ac-a4d3-41daa7dafa2f")
+		)
+		(pad "1" smd rect
+			(at -2.075 -1.075)
+			(size 1.05 0.65)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 80 "/UB2")
+			(pintype "power_in")
+			(solder_mask_margin 0.102)
+			(uuid "153fac8e-cd7b-4356-8956-59ca8b27ac5d")
+		)
+		(pad "1" smd rect
+			(at 2.075 -1.075)
+			(size 1.05 0.65)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 80 "/UB2")
+			(pintype "power_in")
+			(solder_mask_margin 0.102)
+			(uuid "d518a1db-9b7a-4df5-8727-e11f0650bd56")
+		)
+		(pad "2" smd rect
+			(at -2.075 1.075)
+			(size 1.05 0.65)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 54 "GND")
+			(pintype "power_out")
+			(solder_mask_margin 0.102)
+			(uuid "d51324f8-2bdb-4dcb-808d-466ea00768e7")
+		)
+		(pad "2" smd rect
+			(at 2.075 1.075)
+			(size 1.05 0.65)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 54 "GND")
+			(pintype "power_out")
+			(solder_mask_margin 0.102)
+			(uuid "014c761f-a589-4c05-8398-fbc747343b2a")
+		)
+		(model "C:/Users/16193/Documents/KiCad/8.0/Imported Libraries/rockerSwitch-434133025816/rockerSwitch - SMD - Part 1.step"
+			(offset
+				(xyz -2 -1.6 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -10511,7 +11211,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "ERA-2AED102X"
+		(property "MANUFACTURER" " ERA-2AED104X "
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11546,7 +12246,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" " 0402DF-102XJRW "
+		(property "MANUFACTURER" "0402DF-222XJRW "
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11769,7 +12469,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/a3859f96-539b-4c1d-9aa2-49ca0a5aa8ab")
 		(sheetname "Root")
 		(sheetfile "ece16.kicad_sch")
 		(attr smd)
@@ -12982,6 +13681,19 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" "PAM2401SCADJ "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a29ef13a-9bd9-4426-901a-e7059578cdeb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/2c75aff3-e261-43a8-89ab-613822cb2e70")
 		(sheetname "Root")
 		(sheetfile "ece16.kicad_sch")
@@ -13416,6 +14128,242 @@
 			(uuid "f1c4fb2f-3659-4ae8-a36b-9b425201b864")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0402_1005Metric"
+		(layer "F.Cu")
+		(uuid "e7fa0e11-1770-41ee-a277-e224647c5411")
+		(at 94.48 35.42)
+		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor")
+		(property "Reference" "R20"
+			(at 0 -1.17 0)
+			(layer "F.SilkS")
+			(uuid "00a1bf5d-55d7-419d-84e6-186d573aa058")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 0 1.17 0)
+			(layer "F.Fab")
+			(uuid "ccca7bfa-6d2e-4ca6-be7b-3f14c9be0c53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee5e0792-9d0a-46bd-8802-672f1acb50f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27021365-826c-4a66-8cb4-ba5fa4aa6d22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec302dbf-63bb-4092-a05f-7d901e9f750c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e4e0106-c45c-43a2-8e02-caa35cdb9b84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "ERA-2AED512X"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80d991e9-a677-4de7-a7fb-a2580c7395f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/db6adc3e-22e7-46a7-891d-3365c13e69ad")
+		(sheetname "Root")
+		(sheetfile "ece16.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.153641 -0.38)
+			(end 0.153641 -0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5a868001-25e3-40dc-8b21-0dfd90470914")
+		)
+		(fp_line
+			(start -0.153641 0.38)
+			(end 0.153641 0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bb6d97a9-dc49-4240-8574-ba128f8e643f")
+		)
+		(fp_line
+			(start -0.93 -0.47)
+			(end 0.93 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c3e5e6e6-dae8-433e-b982-e6336b5ae66f")
+		)
+		(fp_line
+			(start -0.93 0.47)
+			(end -0.93 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8785e679-d6e8-4bb1-9b6b-96be0539b095")
+		)
+		(fp_line
+			(start 0.93 -0.47)
+			(end 0.93 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c21c79fb-f02e-45cf-99e4-4b156032c9dc")
+		)
+		(fp_line
+			(start 0.93 0.47)
+			(end -0.93 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6abc982e-8332-40bd-aeba-961af307eb20")
+		)
+		(fp_line
+			(start -0.525 -0.27)
+			(end 0.525 -0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d8b70302-8d10-4b43-a8c5-689f9384c008")
+		)
+		(fp_line
+			(start -0.525 0.27)
+			(end -0.525 -0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4699d6ae-1ded-4238-9bee-2de5dbaf41f6")
+		)
+		(fp_line
+			(start 0.525 -0.27)
+			(end 0.525 0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f2b313c2-6a8b-4b48-a16a-aad0fcadb873")
+		)
+		(fp_line
+			(start 0.525 0.27)
+			(end -0.525 0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8b0ba78e-2849-41dd-9629-36557b56bf08")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "65069391-b47c-4931-8f6c-e6cf60f70c88")
+			(effects
+				(font
+					(size 0.26 0.26)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.51 0)
+			(size 0.54 0.64)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 78 "Net-(C4-Pad2)")
+			(pintype "passive")
+			(uuid "c170b9ae-1dbc-443b-9868-0d334745a9e5")
+		)
+		(pad "2" smd roundrect
+			(at 0.51 0)
+			(size 0.54 0.64)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 12 "/EN")
+			(pintype "passive")
+			(uuid "b3651349-1c5e-4e9a-98fb-7e58d4b55614")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14061,7 +15009,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "ERA-2AED102X"
+		(property "MANUFACTURER" " ERJ-2RKF7503X "
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14301,7 +15249,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "1769 "
+		(property "MANUFACTURER" "485-1769 "
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
